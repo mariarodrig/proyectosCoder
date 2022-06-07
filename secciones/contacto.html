@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="cursiva" id="tituloJoyeria"> Joyeria Aleja</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home |</a>
+                </li>
+                <li>
+                    <a href="contacto.html"> Contacto |</a>
+                </li>
+                <li>
+                    <a href="historia.html"> Historia |</a>
+                </li>
+                <li>
+                    <a href="servicios.html"> Servicios |</a>
+                </li>
+                <li>
+                    <a href="experiencia.html"> Experiencia </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <form class="subtitulos" id="formularioPedido">
+
+        <label for="nombre_apellido">Ingrese su nombre y apellido</label>
+        <input type="text" name="nombre_apellido" /> <br>
+        <label for="edad">Ingrese edad</label>
+        <input type="number" name="edad" /> <br>
+
+        <input type="submit" value="Enviar datos" />
+        <input type="reset" value="Borrar datos" />
+        <input type="button" value="Fuera de funcionamiento" /> <br>
+
+        <div>Mujer</div>
+        <input type="radio" name="sexo" value="Mujer" />
+        <div>Hombre</div>
+        <input type="radio" name="sexo" value="Hombre" /> <br>
+
+        <select name="talles">
+
+            <option value="L">Large</option>
+            <option value="M">Medium</option>
+            <option value="S">Small</option>
+        </select>
+    </form>
+
+    <footer>
+        <div>
+            <h2 class="poppins">Venta de joyeria</h2>
+            <h2 class="subtitulos">Carrera 65 #45-60. Local 402</h2>
+            <h3 class="subtitulos">4090100</h3>
+        </div>
+    </footer>
+</body>
+
+</html>

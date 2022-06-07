@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Mukta:wght@200&family=Oooh+Baby&family=Poppins:wght@600&family=Quicksand:wght@300&family=Roboto:wght@100&family=Sedgwick+Ave&family=Whisper&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.header{
+    grid-area: header;
+}
+ header{
+ 
+    background-color: rgb(41, 11, 70);
+    padding: 40px 60px 40px 50px;
+    
+ }
+
+ footer {
+    grid-area: footer;
+  
+ }
+
+ main {
+     grid-area: main;
+ }
+
+
+ #grilla {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "figure figure"
+    "footer"
+    ;
+    grid-template-columns: 1fr;
+    gap: 10px;
+   }
+
+h2 {
+    color: palevioletred;
+}
+
+.subtitulos {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+#tipografia {
+    font-size: 64px;
+}
+
+footer {
+    background-color: rgb(216, 139, 216);
+    margin-bottom: 0;
+}
+
+.poppins {
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cursiva {
+    font-family: 'Oooh Baby', cursive;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+}
+
+section {
+    font-size: large;
+    color: rgb(28, 5, 49)
+}
+
+#tituloJoyeria {
+
+    color: white;
+    font-weight: bolder;
+    font-size: 64px;
+    margin: 15px 50px 50px 500px;
+}
+
+
+body {
+    background-color: rgb(215, 196, 221);
+    background-image: url("../img/joyasCoder.png");
+    background-repeat: unset;
+    background-blend-mode: soft-light;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(34, 3, 22);
+    padding: 40px;
+    margin-bottom: 60px;
+    margin-right: 400px;
+    margin-left: 60px;
+    margin-top: 60px;
+
+    border: 10px solid blueviolet;
+}
+
+footer {
+    padding: 80px;
+    margin-bottom: 0;
+    margin-top: 200px;
+    background-color: blueviolet;
+}
+
+figure {
+    margin: 40px 80px 40px 100px;
+    padding: 40px 80px 40px 100pxpx;
+}
+
+figcaption {
+    margin: 0px 80px 40px 200px;
+}
+
+iframe {
+    margin: 40px 80px 40px 100px;
+    padding: 40px 80px 40px 100pxpx;
+}
+
+#formularioPedido {
+    padding: auto;
+    margin-top: 30px;
+    font-size: 24px;
+    color: black;
+}
