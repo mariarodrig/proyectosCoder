@@ -4,36 +4,11 @@
     padding: 0;
     margin: 0;
 }
-.header{
-    grid-area: header;
-}
- header{
- 
+
+header {
     background-color: rgb(41, 11, 70);
     padding: 40px 60px 40px 50px;
-    
- }
-
- footer {
-    grid-area: footer;
-  
- }
-
- main {
-     grid-area: main;
- }
-
-
- #grilla {
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "figure figure"
-    "footer"
-    ;
-    grid-template-columns: 1fr;
-    gap: 10px;
-   }
+}
 
 h2 {
     color: palevioletred;
@@ -83,14 +58,16 @@ section {
     color: white;
     font-weight: bolder;
     font-size: 64px;
-    margin: 15px 50px 50px 500px;
 }
 
 
 body {
-    background-color: rgb(215, 196, 221);
     background-image: url("../img/joyasCoder.png");
-    background-repeat: unset;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(215, 196, 221);
     background-blend-mode: soft-light;
 }
 
@@ -101,12 +78,6 @@ header nav ul li {
 p {
     font-family: 'Poppins', sans-serif;
     color: rgb(34, 3, 22);
-    padding: 40px;
-    margin-bottom: 60px;
-    margin-right: 400px;
-    margin-left: 60px;
-    margin-top: 60px;
-
     border: 10px solid blueviolet;
 }
 
@@ -136,4 +107,12 @@ iframe {
     margin-top: 30px;
     font-size: 24px;
     color: black;
+}
+
+.violet {
+    background-color: rgb(41, 11, 70);
+}
+
+.letras {
+    color: aliceblue;
 }
